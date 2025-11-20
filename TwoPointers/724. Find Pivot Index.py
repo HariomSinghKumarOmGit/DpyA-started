@@ -11,3 +11,4 @@ class Solution:
             Sleft+=nums[i]
         return -1
 
+# this is the problem in which we have to find sum form both end and in middle value sum both side same
