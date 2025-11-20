@@ -29,3 +29,5 @@ class Solution:
             else:
                 return False
         return True
+    
+    #  this only works fro lowecase we converted all uppercase to lower case
