@@ -1,0 +1,1 @@
+# can be made by if else statements after finding middle 
