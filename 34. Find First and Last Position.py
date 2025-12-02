@@ -3,9 +3,9 @@ class Solution:
         n = len(nums)
         l = 0
         r = n-1
-        ans = 1
-        while r>=l:
-            mid = (l+2)//2
+        ans = n
+        while l<=r:
+            mid = (l+r)//2
             if nums[mid]>=target:
                 ans = mid
 
@@ -13,8 +13,10 @@ class Solution:
             else:
                 l = mid+1
 
+        return ans
 
-         return ans
+
+        
 
     def UpperBound(self, nums, target):
         n = len(nums)
@@ -38,7 +40,7 @@ class Solution:
         lb = self.lowerBound(nums, target)
         ub = self.UpperBound(nums, target)
 
-        if lb == up:
+        if lb == ub:
             # not present
             return [-1,-1]
         else:
