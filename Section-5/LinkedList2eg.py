@@ -40,4 +40,22 @@ for i in range(k-2):
 newNode.next = curr.next
 curr.next = newNode
 
+# remove
+# 1st remove
+
+head = head.next
+# remove last
+curr = head
+while curr.next.next!=None:
+    curr = curr.next
+curr.next = None
+# remove the kth node
+
+k=3
+curr = head
+for i in range(k-2):
+    curr = curr.next
+curr.next = curr.next.next
+
+
 printLL(head)
