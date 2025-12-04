@@ -29,5 +29,3 @@ st.pop()
 print(st.top())
 print(st.size())
 
-
-# goob
