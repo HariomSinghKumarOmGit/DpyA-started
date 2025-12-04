@@ -23,3 +23,5 @@ st.push(12)
 st.push(7)
 
 print(st.top())
+st.pop()
+print(st.top())
