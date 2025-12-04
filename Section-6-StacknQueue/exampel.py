@@ -28,3 +28,6 @@ print(st.top())
 st.pop()
 print(st.top())
 print(st.size())
+
+
+# goob
