@@ -12,6 +12,8 @@ class Stack:
         if len(self.val)==0:
             return -1
         return self.val[-1]
+    def size(self):
+        return len(self.val)
     
 
 st = Stack()
@@ -25,3 +27,4 @@ st.push(7)
 print(st.top())
 st.pop()
 print(st.top())
+print(st.size())
