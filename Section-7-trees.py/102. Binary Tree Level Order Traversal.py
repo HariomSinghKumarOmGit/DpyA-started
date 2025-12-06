@@ -30,4 +30,4 @@ class Solution:
 
             ans.append(level)
 
-        return ans
+        return ans 
