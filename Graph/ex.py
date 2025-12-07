@@ -9,4 +9,9 @@ def buildAdjList(v, edges):
         adjList[v].append(u)
     return adjList
 
-print(buildAdjList(v, edges))
+# print(buildAdjList(v, edges))
+
+adjList = buildAdjList(v, edges)
+for i in range(v):
+    print(i, "-->", adjList[i])
+
